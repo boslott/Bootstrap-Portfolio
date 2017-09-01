@@ -1,0 +1,170 @@
+/*
+  style.css for HW02 - Bootstrap Portfolio
+  Bo Slott
+  September 2, 2017 
+*/
+
+/* Typography */
+
+  body {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: #777777;
+        font-size: 18px;
+        line-height: 34px;
+        background: url("../images/concrete_seamless.png");
+    }
+
+    h1, h2, h3, .navbar-brand {
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-weight: 700;
+      }
+
+    h1, h2, h3 {
+        color: #4aaaa5;
+    }
+
+    h1 {
+      padding-bottom: 20px;
+      font-size: 30px;
+      line-height: 49px;
+      border-bottom: 3px solid #ddd;
+    }
+
+    h2, h3 {
+      padding-bottom: 20px;
+      font-size: 22px;
+      line-height: 49px;
+      border-bottom: 2px solid #ddd;
+    }
+
+
+/* Structure */
+
+* {
+  box-sizing: border-box;
+}
+
+  /* Site Header */
+
+    .site-header-outer {
+      background-color: #fff;
+      border-style: solid;
+      border-color: #ccc;
+      border-bottom-width: 2px;
+    }
+
+    .navbar, .navbar-default {
+      background-color: #fff;
+      border: none;
+      margin: 0;
+    }
+
+    .logo {
+      background-color: #4aaaa5;
+      padding: 20px 50px;
+    }
+
+    .logo-text {
+      color: #fff;
+      font-size: 30px;
+    }
+
+    .nav-links-container {
+      margin-top: 20px;
+    }
+
+    nav li {
+      display: inline-block;
+      padding-left: 15px;
+      margin-left: 15px;
+      line-height: 18px;
+      color: #999;
+      text-decoration: none;
+      border-left: 1px solid #efefef;
+    }
+
+    nav li:first-child {
+      border-left: 0 none;
+    }
+
+  /* Site Content */
+
+    /* Main Article */
+
+      .main-article {
+        margin: 30px 30px 30px 0;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dddddd;
+        background-color: #fff;
+      }
+
+      .main-article-header {
+        padding: 30px;
+      }
+
+      .main-article-img {
+        width: 40%;
+        height: auto;
+        margin: 0px 30px;
+        display: inline-block;
+        border-radius: 50%;
+        object-fit: cover;
+        float: left;
+      }
+
+      .main-article-content p {
+        color: #777777;
+        font-size: 20px;
+        line-height: 2;
+        margin: 0 10px 20px 30px;
+        padding-right: 15px;
+      }
+
+    /* Aside Box */
+
+      .aside-box {
+        margin: 30px 30px 30px 0;
+        background: #fff;
+        border: 1px solid #ddd;
+      }
+
+      .aside-box-header {
+        padding: 20px;
+        line-height: 22px;
+        text-align: center;
+      }
+
+      .aside-box-content {
+        padding: 0 20px 20px 20px;
+        text-align: center;
+      }
+
+      .social-links {
+        width: 25%;
+        margin: 0 12px;
+      }
+
+      .social-links:last-child {
+        margin-right: 0;
+        }
+
+
+
+  /* Site Footer */
+
+    .site-footer {
+      background-color: #777777;
+      border-style: solid;
+      border-width: 8px 0 0;
+      border-color: #4aaaa5;
+      color: #cccccc;
+      font-size: 12px;
+      text-align: center;
+      padding: 30px 0;
+      margin-top: 30px;
+    }
+
+/* General 
+
+

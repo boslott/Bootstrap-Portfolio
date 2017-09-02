@@ -4,6 +4,18 @@
   September 2, 2017 
 */
 
+/*
+  Notes
+
+  Still trying to figure out why the aside box ("Connect Box") jumps from a height of
+  338px when the screen size is 769px+, up to a height of 999px when the screen height
+  is 768px-.
+
+  Also still trying to figure out why the title bar is wonky going across the
+  portfolio images.
+
+
+
 /* Typography */
 
   body {
@@ -89,9 +101,9 @@
 
   /* Site Content */
 
-    /* Main Article */
+    /* Main Content */
 
-      .main-article {
+      .main-content {
         margin: 30px 30px 30px 0;
         border-style: solid;
         border-width: 1px;
@@ -99,11 +111,11 @@
         background-color: #fff;
       }
 
-      .main-article-header {
+      .main-content-header {
         padding: 30px;
       }
 
-      .main-article-img {
+      .main-content-img {
         width: 40%;
         height: auto;
         margin: 0px 30px;
@@ -113,12 +125,91 @@
         float: left;
       }
 
-      .main-article-content p {
+      .main-content-body p {
         color: #777777;
         font-size: 20px;
         line-height: 2;
         margin: 0 10px 20px 30px;
         padding-right: 15px;
+      }
+
+      .main-content-article {
+        position: relative;
+        float: left;
+        width: 40%;
+        margin: 20px 0 25px;
+        overflow: auto;
+      }
+
+      .main-content-article img {
+        position: relative;
+        width: 100%;
+        border: 0 none;
+        opacity: 0.8;
+        margin-left: 10px;
+      }
+
+      .main-content-article h1 {
+        position: absolute;
+        bottom: 20px;
+        width: 87%;
+        padding: 15px;
+        margin: 0 0 0 10px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #fff;
+        text-align: center;
+        background: #4aaaa5;
+        border-bottom: 0;
+      }
+
+    /* Contact Form */
+
+      #contact-form ul {
+      margin-bottom: 20px;
+      }
+
+      #contact-form li {
+      margin-bottom: 10px;
+      padding: 0 30px;
+      }
+
+      label,
+      input[type=text],
+      input[type=email],
+      textarea {
+        display: block;
+        width: 100%;
+      }
+
+      input[type=text],
+      input[type=email],
+      textarea {
+        height: 35px;
+        padding: 0 10px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+      }
+
+      input[type=text]:focus,
+      input[type=email]:focus,
+      textarea:focus {
+        background-color: #4aaaa5;
+        color: #fff;
+      }
+
+      textarea {
+        height: 200px;
+      }
+
+      input[type=submit] {
+        padding: 10px 30px;
+        font-size: 18px;
+        color: #fff;
+        cursor: pointer;
+        background: #4aaaa5;
+        border: 0 none;
+        margin: 0 0 30px 30px;
       }
 
     /* Aside Box */
@@ -165,6 +256,7 @@
       margin-top: 30px;
     }
 
-/* General 
+/* General */
+
 
 

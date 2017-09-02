@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Contact Me | Bo Slott</title>
+
+  <!-- reset.css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <!-- Bootstrap v3.3.7 CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- style.css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"
+  >
+  
+
+
+</head>
+<body>
+
+  <div class = "site-header-outer">
+
+    <div class = "container">
+
+      <div class = "row">
+
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header logo">
+
+            <!-- The <span> element is used because I could not figure out any other way to make the logo text white. My .logo-text class changes the font-size, but it will not change the font color. The styled <span> element seemed to work. -->
+              <a class="navbar-brand logo-text" href="#"><span style="color:#fff;">Bo Slott</span></a>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <div class = "nav-links-container">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html" alt = "About Bo Slott">About</a></li>
+                  <li><a href="portfolio.html" alt = "Bo Slott Portfolio">Portfolio</a></li>
+                  <li><a href="contact.html" alt = "Contact Bo Slott">Contact</a></li>
+                </ul>
+              </div>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class = "site-content container"> 
+
+    <div class = "main-row row">
+
+      <main class = "main-content col-xs-12 col-md-7">
+
+        <header class = "main-content-header row">
+          <h1>Contact</h1>
+        </header>
+
+        <section class = "main-content-body row">
+          
+          <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+        </section>
+
+      </main>
+
+      <aside class = "aside-box col-sm-12 col-md-4">
+
+        <header class = "aside-box-header row">
+          <h2>Connect With Me</h2>
+        </header>
+
+        <div class = "aside-box-content row">
+          <a href="https://github.com/boslott" alt="Connect With Bo on GitHub" target="_blank">
+            <img src="assets/images/github-128.png" class="social-links" alt="GitHub" />
+          </a>
+          <a href="https://www.linkedin.com/in/bo-slott-7ab21731/" alt="Connect With Bo on LinkedIn" target="_blank">
+            <img src="assets/images/linkedin-128.png" class="social-links" alt="LinkedIn" />
+          </a>
+          <a href="https://stackoverflow.com/users/8414926/bo-slott?tab=profile" alt="Connect With Bo on Stack Overflow" target="_blank">
+            <img src="assets/images/stackoverflow-128.png" class="social-links" alt="Stack Overflow" />
+          </a>
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+  <footer class = "site-footer">
+
+    <div class="footer-copyright">
+      Copyright &copy; 2017 Bo Slott
+    </div>
+
+  </footer>
+
+
+
+<!-- Bootstrap JavaScript CDN  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
